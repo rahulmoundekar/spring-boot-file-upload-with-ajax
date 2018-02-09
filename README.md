@@ -23,3 +23,11 @@ Go on the project's root folder, then type:
 #### From Eclipse (Spring Tool Suite)
 
 Import as *Existing Maven Project* and run it as *Spring Boot App*.
+
+### Usage
+
+- Launch the application and go on http://localhost:8080/
+- Click the *Browse...* button and choose a file to upload (of size less 
+  than 10MB)
+- Go in the directory you have set in the `application.properties` file: the
+  uploaded file will be copied here.
